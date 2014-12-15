@@ -1,5 +1,16 @@
-# Solarium PHP Solr client library
+# Wen's Books
 
+## Requirements
+Solr 4.10.2
+Solarium only supports PHP 5.3 and up.
+It's highly recommended to have Curl enabled in your PHP environment. However if you don't have Curl available you can
+switch from using Curl (the default) to another client adapter. The other adapters don't support all the features of the
+Curl adapter.
+
+##What is Solr?
+Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites.
+
+http://lucene.apache.org/solr/
 
 ## What is Solarium?
 
@@ -7,46 +18,16 @@ Solarium is a PHP Solr client library that accurately model Solr concepts. Where
 the communication with Solr, Solarium also relieves you of handling all the complex Solr query parameters using a
 well documented API.
 
-Please see the project website for a more detailed description.
+http://www.solarium-project.org/
 
-## Requirements
+## Data
 
-Solarium only supports PHP 5.3 and up.
-It's highly recommended to have Curl enabled in your PHP environment. However if you don't have Curl available you can
-switch from using Curl (the default) to another client adapter. The other adapters don't support all the features of the
-Curl adapter.
-
-## Getting started
-
-The preferred way to install Solarium is by using Composer. Solarium is available on Packagist.
-For more info see   
-http://wiki.solarium-project.org/index.php/V3:Installation#Getting_Solarium
+HATHIA TRUST Books.
+Download from    
+http://www.hathitrust.org/datasets
 
 ## More information
+Demo
+http://54.186.36.7/solarium/examples/index.php
 
-* Manual  
-  http://wiki.solarium-project.org/index.php/Solarium_3.x_manual
-
-* Project website   
-  http://www.solarium-project.org/
-
-* API docs    
-  http://api.solarium-project.org/
-
-* Issue tracker   
-  http://github.com/basdenooijer/solarium/issues
-
-* Contributors    
-  https://github.com/basdenooijer/solarium/contributors
-
-* License   
-  See the COPYING file or view online:  
-  https://github.com/basdenooijer/solarium/blob/master/COPYING
-
-## Travis Continuous Integration status
-
-* Develop branch [![Develop build status](https://secure.travis-ci.org/basdenooijer/solarium.png?branch=develop)](http://travis-ci.org/basdenooijer/solarium)
-* Develop branch [![Coverage Status](https://coveralls.io/repos/basdenooijer/solarium/badge.png?branch=develop)](https://coveralls.io/r/basdenooijer/solarium?branch=develop)
-* Master branch [![Develop build status](https://secure.travis-ci.org/basdenooijer/solarium.png?branch=master)](http://travis-ci.org/basdenooijer/solarium)
-* Master branch [![Coverage Status](https://coveralls.io/repos/basdenooijer/solarium/badge.png?branch=master)](https://coveralls.io/r/basdenooijer/solarium?branch=master)
 
